@@ -1,0 +1,16 @@
+{
+  "name": "lsvm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "lsvm": "./index.js"
+  },
+  "scripts": {
+    "test": "./index.js data/UniHashToken.sol 16"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.3",
+    "solidity-helpers": "^0.0.1"
+  }
+}
